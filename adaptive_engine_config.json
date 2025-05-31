@@ -1,0 +1,193 @@
+{
+  "engine": {
+    "name": "Luxcordia_Adaptive_Engine",
+    "version": "2.0",
+    "build": "20250531",
+    "certification": "ISO_14155_compliant"
+  },
+  "metadata": {
+    "description": "Real-time adaptive configuration for neurodivergent child learning songs",
+    "target_population": {
+      "age_range": [24, 72],
+      "age_unit": "months",
+      "neurodivergent_profiles": ["TSA", "TDAH", "DYS", "mixed_profile"]
+    },
+    "clinical_validation": {
+      "validated": true,
+      "validation_date": "2025-01-15",
+      "sample_size": 120,
+      "efficacy_threshold": 0.75
+    }
+  },
+  "tempo_control": {
+    "baseline": {
+      "default_bpm": 85,
+      "clinical_rationale": "Optimal for sustained attention in 2-6y neurodivergent population"
+    },
+    "adaptive_range": {
+      "minimum": 65,
+      "maximum": 105,
+      "safety_bounds": {
+        "TSA": [70, 90],
+        "TDAH": [80, 100], 
+        "DYS": [75, 95]
+      }
+    },
+    "adjustment_protocol": {
+      "attention_decline": {
+        "threshold": -0.3,
+        "adjustment": "+3_to_+7",
+        "max_iterations": 3
+      },
+      "overstimulation_detected": {
+        "threshold": 0.7,
+        "adjustment": "-5_to_-12",
+        "cooldown_period": 30
+      },
+      "optimal_engagement": {
+        "threshold": [0.6, 0.8],
+        "adjustment": "maintain",
+        "reinforcement_protocol": true
+      }
+    }
+  },
+  "phonetic_complexity": {
+    "progression_model": "developmental_sequence",
+    "levels": {
+      "level_1": {
+        "patterns": ["CV", "VC"],
+        "phonetic_load": "simple",
+        "target_age": [24, 36]
+      },
+      "level_2": {
+        "patterns": ["CVC", "CVV"],
+        "phonetic_load": "moderate", 
+        "target_age": [30, 48]
+      },
+      "level_3": {
+        "patterns": ["CCVC", "CVCC"],
+        "phonetic_load": "complex",
+        "target_age": [42, 72]
+      }
+    },
+    "mastery_criteria": {
+      "accuracy_threshold": 0.85,
+      "consistency_sessions": 3,
+      "retention_period": 168
+    }
+  },
+  "voice_adaptation": {
+    "TSA_profile": {
+      "primary": "maternal_whisper",
+      "parameters": {
+        "pitch_range": [180, 220],
+        "dynamic_range": "compressed",
+        "resonance": "warm_chest"
+      }
+    },
+    "TDAH_profile": {
+      "primary": "playful_childlike",
+      "parameters": {
+        "pitch_range": [200, 280],
+        "dynamic_range": "expressive",
+        "articulation": "crisp_consonants"
+      }
+    },
+    "DYS_profile": {
+      "primary": "clear_phonetic",
+      "parameters": {
+        "pitch_range": [160, 200],
+        "dynamic_range": "controlled",
+        "emphasis": "phoneme_boundaries"
+      }
+    }
+  },
+  "instrumental_orchestration": {
+    "TSA_soundscape": {
+      "primary_instruments": ["soft_ukulele", "wooden_xylophone"],
+      "acoustic_properties": {
+        "frequency_ceiling": 2000,
+        "attack_profile": "gradual",
+        "reverb_coefficient": 0.3
+      }
+    },
+    "TDAH_soundscape": {
+      "primary_instruments": ["bright_xylophone", "light_percussion"],
+      "acoustic_properties": {
+        "frequency_emphasis": [1000, 4000],
+        "attack_profile": "defined",
+        "rhythmic_precision": "strict"
+      }
+    },
+    "DYS_soundscape": {
+      "primary_instruments": ["dry_percussion", "phoneme_mirrors"],
+      "acoustic_properties": {
+        "frequency_clarity": [500, 2500],
+        "attack_profile": "clean",
+        "harmonic_suppression": true
+      }
+    }
+  },
+  "biometric_monitoring": {
+    "data_sources": {
+      "audio_stream": {
+        "sample_rate": 48000,
+        "analysis_window": 250,
+        "features": ["f0_stability", "jitter", "shimmer", "hnr"]
+      },
+      "visual_stream": {
+        "fps": 30,
+        "roi_tracking": ["eye_region", "facial_expression"],
+        "features": ["gaze_stability", "micro_expressions", "head_pose"]
+      },
+      "wearable_data": {
+        "sampling_frequency": 100,
+        "sensors": ["accelerometer", "heart_rate", "skin_conductance"],
+        "preprocessing": "real_time_filtering"
+      }
+    },
+    "fusion_algorithm": {
+      "method": "weighted_bayesian",
+      "confidence_thresholds": {
+        "high": 0.85,
+        "medium": 0.65,
+        "low": 0.40
+      }
+    }
+  },
+  "clinical_outputs": {
+    "real_time_adaptation": {
+      "audio_modulation": true,
+      "lyric_complexity_scaling": true,
+      "interaction_cueing": true
+    },
+    "session_analytics": {
+      "engagement_metrics": true,
+      "learning_progression": true,
+      "stress_indicators": true
+    },
+    "longitudinal_tracking": {
+      "developmental_milestones": true,
+      "intervention_efficacy": true,
+      "personalization_refinement": true
+    }
+  },
+  "safety_protocols": {
+    "data_protection": {
+      "encryption": "AES_256",
+      "gdpr_compliant": true,
+      "pediatric_consent": "required"
+    },
+    "clinical_boundaries": {
+      "max_session_duration": 1200,
+      "fatigue_detection": "mandatory",
+      "emergency_stop": "voice_command"
+    }
+  },
+  "attribution": {
+    "author": "Élyon-Zarlax",
+    "project": "Project Rose / Luxcordia",
+    "license": "clinical_research_restricted",
+    "contact": "svensonkristoph@gmail.com"
+  }
+}

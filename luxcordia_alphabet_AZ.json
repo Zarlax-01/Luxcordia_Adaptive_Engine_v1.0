@@ -1,0 +1,474 @@
+{
+  "alphabet_system": {
+    "letters": {
+      "A": {
+        "core": {
+          "keyword": "Apple",
+          "phonemes": [
+            "/a/"
+          ],
+          "difficulty": 1
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Avion",
+          "texture": "Texture évoquant avion"
+        },
+        "cultural_variants": {
+          "fr_CA": "Avion",
+          "ar_DZ": "Tuffahah",
+          "en_US": "Apple"
+        }
+      },
+      "B": {
+        "core": {
+          "keyword": "Banana",
+          "phonemes": [
+            "/b/"
+          ],
+          "difficulty": 1
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Banane",
+          "texture": "Texture évoquant banane"
+        },
+        "cultural_variants": {
+          "fr_CA": "Banane",
+          "ar_DZ": "Mawz",
+          "en_US": "Banana"
+        }
+      },
+      "C": {
+        "core": {
+          "keyword": "Cucumber",
+          "phonemes": [
+            "/c/"
+          ],
+          "difficulty": 1
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Cornichon",
+          "texture": "Texture évoquant cornichon"
+        },
+        "cultural_variants": {
+          "fr_CA": "Cornichon",
+          "ar_DZ": "Khiar",
+          "en_US": "Cucumber"
+        }
+      },
+      "D": {
+        "core": {
+          "keyword": "Dolphin",
+          "phonemes": [
+            "/d/"
+          ],
+          "difficulty": 1
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Dauphin",
+          "texture": "Texture évoquant dauphin"
+        },
+        "cultural_variants": {
+          "fr_CA": "Dauphin",
+          "ar_DZ": "Dulfīn",
+          "en_US": "Dolphin"
+        }
+      },
+      "E": {
+        "core": {
+          "keyword": "Elephant",
+          "phonemes": [
+            "/e/"
+          ],
+          "difficulty": 1
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Éléphant",
+          "texture": "Texture évoquant éléphant"
+        },
+        "cultural_variants": {
+          "fr_CA": "Éléphant",
+          "ar_DZ": "Fil",
+          "en_US": "Elephant"
+        }
+      },
+      "F": {
+        "core": {
+          "keyword": "Flower",
+          "phonemes": [
+            "/f/"
+          ],
+          "difficulty": 1
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Fleur",
+          "texture": "Texture évoquant fleur"
+        },
+        "cultural_variants": {
+          "fr_CA": "Fleur",
+          "ar_DZ": "Zahra",
+          "en_US": "Flower"
+        }
+      },
+      "G": {
+        "core": {
+          "keyword": "Giraffe",
+          "phonemes": [
+            "/g/"
+          ],
+          "difficulty": 1
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Gâteau",
+          "texture": "Texture évoquant gâteau"
+        },
+        "cultural_variants": {
+          "fr_CA": "Gâteau",
+          "ar_DZ": "Girāfah",
+          "en_US": "Giraffe"
+        }
+      },
+      "H": {
+        "core": {
+          "keyword": "Hat",
+          "phonemes": [
+            "/h/"
+          ],
+          "difficulty": 1
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Hérisson",
+          "texture": "Texture évoquant hérisson"
+        },
+        "cultural_variants": {
+          "fr_CA": "Hérisson",
+          "ar_DZ": "Qubba'a",
+          "en_US": "Hat"
+        }
+      },
+      "I": {
+        "core": {
+          "keyword": "Igloo",
+          "phonemes": [
+            "/i/"
+          ],
+          "difficulty": 1
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Igloo",
+          "texture": "Texture évoquant igloo"
+        },
+        "cultural_variants": {
+          "fr_CA": "Igloo",
+          "ar_DZ": "Igloo",
+          "en_US": "Igloo"
+        }
+      },
+      "J": {
+        "core": {
+          "keyword": "Juice",
+          "phonemes": [
+            "/j/"
+          ],
+          "difficulty": 1
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Jus",
+          "texture": "Texture évoquant jus"
+        },
+        "cultural_variants": {
+          "fr_CA": "Jus",
+          "ar_DZ": "Aseer",
+          "en_US": "Juice"
+        }
+      },
+      "K": {
+        "core": {
+          "keyword": "Kite",
+          "phonemes": [
+            "/k/"
+          ],
+          "difficulty": 2
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Koala",
+          "texture": "Texture évoquant koala"
+        },
+        "cultural_variants": {
+          "fr_CA": "Koala",
+          "ar_DZ": "Tayyara ورقية",
+          "en_US": "Kite"
+        }
+      },
+      "L": {
+        "core": {
+          "keyword": "Lemon",
+          "phonemes": [
+            "/l/"
+          ],
+          "difficulty": 2
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Lune",
+          "texture": "Texture évoquant lune"
+        },
+        "cultural_variants": {
+          "fr_CA": "Lune",
+          "ar_DZ": "Laymūn",
+          "en_US": "Lemon"
+        }
+      },
+      "M": {
+        "core": {
+          "keyword": "Moon",
+          "phonemes": [
+            "/m/"
+          ],
+          "difficulty": 2
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Maison",
+          "texture": "Texture évoquant maison"
+        },
+        "cultural_variants": {
+          "fr_CA": "Maison",
+          "ar_DZ": "Qamar",
+          "en_US": "Moon"
+        }
+      },
+      "N": {
+        "core": {
+          "keyword": "Nest",
+          "phonemes": [
+            "/n/"
+          ],
+          "difficulty": 2
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Nuage",
+          "texture": "Texture évoquant nuage"
+        },
+        "cultural_variants": {
+          "fr_CA": "Nuage",
+          "ar_DZ": "Aasha",
+          "en_US": "Nest"
+        }
+      },
+      "O": {
+        "core": {
+          "keyword": "Orange",
+          "phonemes": [
+            "/o/"
+          ],
+          "difficulty": 2
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Orange",
+          "texture": "Texture évoquant orange"
+        },
+        "cultural_variants": {
+          "fr_CA": "Orange",
+          "ar_DZ": "Burtuqāl",
+          "en_US": "Orange"
+        }
+      },
+      "P": {
+        "core": {
+          "keyword": "Penguin",
+          "phonemes": [
+            "/p/"
+          ],
+          "difficulty": 2
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Papillon",
+          "texture": "Texture évoquant papillon"
+        },
+        "cultural_variants": {
+          "fr_CA": "Papillon",
+          "ar_DZ": "Butrīq",
+          "en_US": "Penguin"
+        }
+      },
+      "Q": {
+        "core": {
+          "keyword": "Queen",
+          "phonemes": [
+            "/q/"
+          ],
+          "difficulty": 2
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Quatre",
+          "texture": "Texture évoquant quatre"
+        },
+        "cultural_variants": {
+          "fr_CA": "Quatre",
+          "ar_DZ": "Malika",
+          "en_US": "Queen"
+        }
+      },
+      "R": {
+        "core": {
+          "keyword": "Rainbow",
+          "phonemes": [
+            "/r/"
+          ],
+          "difficulty": 2
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Rose",
+          "texture": "Texture évoquant rose"
+        },
+        "cultural_variants": {
+          "fr_CA": "Rose",
+          "ar_DZ": "Qaws Quzah",
+          "en_US": "Rainbow"
+        }
+      },
+      "S": {
+        "core": {
+          "keyword": "Sun",
+          "phonemes": [
+            "/s/"
+          ],
+          "difficulty": 2
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Soleil",
+          "texture": "Texture évoquant soleil"
+        },
+        "cultural_variants": {
+          "fr_CA": "Soleil",
+          "ar_DZ": "Shams",
+          "en_US": "Sun"
+        }
+      },
+      "T": {
+        "core": {
+          "keyword": "Tiger",
+          "phonemes": [
+            "/t/"
+          ],
+          "difficulty": 2
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Train",
+          "texture": "Texture évoquant train"
+        },
+        "cultural_variants": {
+          "fr_CA": "Train",
+          "ar_DZ": "Namir",
+          "en_US": "Tiger"
+        }
+      },
+      "U": {
+        "core": {
+          "keyword": "Umbrella",
+          "phonemes": [
+            "/u/"
+          ],
+          "difficulty": 3
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Uniforme",
+          "texture": "Texture évoquant uniforme"
+        },
+        "cultural_variants": {
+          "fr_CA": "Uniforme",
+          "ar_DZ": "Mizalla",
+          "en_US": "Umbrella"
+        }
+      },
+      "V": {
+        "core": {
+          "keyword": "Violin",
+          "phonemes": [
+            "/v/"
+          ],
+          "difficulty": 3
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Vache",
+          "texture": "Texture évoquant vache"
+        },
+        "cultural_variants": {
+          "fr_CA": "Vache",
+          "ar_DZ": "Kamanja",
+          "en_US": "Violin"
+        }
+      },
+      "W": {
+        "core": {
+          "keyword": "Whale",
+          "phonemes": [
+            "/w/"
+          ],
+          "difficulty": 3
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Wagon",
+          "texture": "Texture évoquant wagon"
+        },
+        "cultural_variants": {
+          "fr_CA": "Wagon",
+          "ar_DZ": "Hūt",
+          "en_US": "Whale"
+        }
+      },
+      "X": {
+        "core": {
+          "keyword": "Xylophone",
+          "phonemes": [
+            "/x/"
+          ],
+          "difficulty": 3
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Xylophone",
+          "texture": "Texture évoquant xylophone"
+        },
+        "cultural_variants": {
+          "fr_CA": "Xylophone",
+          "ar_DZ": "Xilūfūn",
+          "en_US": "Xylophone"
+        }
+      },
+      "Y": {
+        "core": {
+          "keyword": "Yogurt",
+          "phonemes": [
+            "/y/"
+          ],
+          "difficulty": 3
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Yéti",
+          "texture": "Texture évoquant yéti"
+        },
+        "cultural_variants": {
+          "fr_CA": "Yéti",
+          "ar_DZ": "Zabadī",
+          "en_US": "Yogurt"
+        }
+      },
+      "Z": {
+        "core": {
+          "keyword": "Zebra",
+          "phonemes": [
+            "/z/"
+          ],
+          "difficulty": 3
+        },
+        "multisensory": {
+          "gesture": "Geste symbolique pour Zèbre",
+          "texture": "Texture évoquant zèbre"
+        },
+        "cultural_variants": {
+          "fr_CA": "Zèbre",
+          "ar_DZ": "Himār Wuhshī",
+          "en_US": "Zebra"
+        }
+      }
+    }
+  }
+}
