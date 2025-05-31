@@ -1,0 +1,52 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+.venv/
+env/
+venv/
+
+# Environment files
+.env
+*.env
+
+# Log files
+*.log
+
+# Node
+node_modules/
+
+# Data
+*.csv
+*.tsv
+*.sqlite
+*.db
+
+# Audio/Generated
+*.mp3
+*.wav
+*.ogg
+*.flac
+
+# Ignore backups
+*.bak
+*.tmp
+
+# Ignore outputs
+*.pdf
+*.zip
+
+# Ignore generated IA exports
+*.gem.json
